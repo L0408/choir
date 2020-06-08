@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/info/index",
+    "pages/audio/index",
+    "pages/video/index",
+    "pages/study/index",
+    "pages/cooperate/index",
+    "pages/course/index",
+    "pages/mine/index",
+    "pages/zp/index",
+    "pages/news/index",
+    "pages/english/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#F0AD4E",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "./static/logo.png",
+        "selectedIconPath": "./static/logo.png"
+      },
+      {
+        "pagePath": "pages/study/index",
+        "text": "学堂",
+        "iconPath": "./static/logo.png",
+        "selectedIconPath": "./static/logo.png"
+      },
+      {
+        "pagePath": "pages/cooperate/index",
+        "text": "合作",
+        "iconPath": "./static/logo.png",
+        "selectedIconPath": "./static/logo.png"
+      },
+      {
+        "pagePath": "pages/course/index",
+        "text": "我的课程",
+        "iconPath": "./static/logo.png",
+        "selectedIconPath": "./static/logo.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "./static/logo.png",
+        "selectedIconPath": "./static/logo.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
